@@ -28,11 +28,12 @@
   	</tr>
   		<td>'.$baris_data['id'].'</td>
   		<td>'.$baris_data['username'].'</td>
+        <td>'.$baris_data['fullname'].'</td>
   		<td>'.$baris_data['password'].'</td>
   		<td>'.$baris_data['level'].'</td>
-  		<td>'.$baris_data['fullname'].'</td>
   	</tr>';
   }
   ?>
+  <a href="formulir.php">Back</a>
 </body>
 </html>
